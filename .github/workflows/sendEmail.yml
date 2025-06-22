@@ -6,14 +6,14 @@ jobs:
    runs-on: ubuntu-latest
 
   steps:
-    - name: Send some mail
-      uses: wadeww/send-email-action@master
-      with:
-       server_address: smtp.gmail.com
-       port: 465
-       username: ${{secrets.MAIL_USERNAME}}
-       password: ${{secrets.MAIL_PASSWORD}}
-       subject: Workflow finished
-       body: Job completed ${{job.status}}
-       to: siva2025arul@gmail.com
-       from: siva
+     - name: Send some mail
+       uses: wadeww/send-email-action@master
+       with:
+        server_address: smtp.gmail.com
+        port: 465
+        username: ${{secrets.MAIL_USERNAME}}
+        password: ${{secrets.MAIL_PASSWORD}}
+        subject: Workflow finished
+        body: Job completed ${{job.status}}
+        to: siva2025arul@gmail.com
+        from: siva
