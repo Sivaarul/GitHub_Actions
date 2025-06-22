@@ -3,9 +3,9 @@ on: push
 
 jobs: 
     First_job:
-          runs_on: ubuntu-latest
+      runs_on: ubuntu-latest
 
-    steps: 
-      -name: print hello world
-       run: echo "hello git hub"
+      steps: 
+       -name: print hello world
+        run: echo "hello git hub"
        
