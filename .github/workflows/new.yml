@@ -5,6 +5,6 @@ jobs:
  newgitaction:
     runs-on: ubuntu-latest
 
-steps:
- - name : start_step
-   run: echo "new git action tirggers"
+    steps:
+       - name : start_step
+         run: echo "new git action tirggers"
