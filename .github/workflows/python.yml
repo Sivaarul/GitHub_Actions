@@ -1,0 +1,19 @@
+Name: run new python jobs
+
+on: push
+
+jobs:
+  new python job:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: send new pr 
+       uses: actions/checkout@v4     
+
+     - name: setup python
+     - uses: actions/setup-python@v5
+       with:
+            python-version: '3.13' 
+     
+     - name: run python script
+       run: python hello.py
