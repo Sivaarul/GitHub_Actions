@@ -1,5 +1,5 @@
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+num1 = 11200904389593489
+num2 = 3434253452314534
 
 # Add the numbers
 result = num1 + num2
