@@ -2,7 +2,7 @@ name: cronjob
 
 on: 
   schedule:
-    - cron: '*/1 * * * *'  # Corrected 'corn' to 'cron'
+    - cron: '* * * * *'  # Corrected 'corn' to 'cron'
   #workflow_dispatch:        # Optional: allows manual trigger
 
 jobs:
