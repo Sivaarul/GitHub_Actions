@@ -1,6 +1,6 @@
 name: cronjob
 on : 
- scheule:
+ schedule:
    - corn : ''
 
 jobs:
