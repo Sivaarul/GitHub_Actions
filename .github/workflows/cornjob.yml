@@ -1,7 +1,7 @@
 name: cronjob
 on : 
  schedule:
-   - corn : ''
+   - corn : '*/1 * * * *'
 
 jobs:
   corn:
